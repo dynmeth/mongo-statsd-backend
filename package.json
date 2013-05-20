@@ -5,13 +5,17 @@
   "version": "0.0.4",
   "main": "lib/index.js",
   "dependencies": {
-    "async": ">=0.1",
     "mongodb": ">=1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "~1.6.0"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
+  },
+  "scripts":{
+  	"test":"mocha tests"
   },
   "repository": {
     "type": "git",
@@ -20,6 +24,6 @@
   "keywords": [
     "statsd",
     "mongodb"
-  ], 
+  ],
   "license": "MIT"
 }
