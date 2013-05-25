@@ -9,7 +9,13 @@ module.exports = {
 			[ 0, 3, 3, 3, 3, 10, 13, 14, 526 ]
 	},
 	gauges: {
-		'central.request_time': 0
+		'central.request_time': 0,
+		'central.request_time1': 1,
+		'central.request_time2': 2,
+		'central.request_time3': 3,
+		'central.request_time4': 4,
+		'central.request_time5': 5,
+		'central.request_time6': 6
 	},
 	timer_data: {
 		'central.reponse_time': {
