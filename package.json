@@ -2,10 +2,11 @@
   "author": "David Howell <david@dynamicmethods.com.au>",
   "description": "A backend for StatsD to emit stats to mongodb.",
   "name": "mongo-statsd-backend",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "lib/index.js",
   "dependencies": {
-    "mongodb": ">=1.0"
+    "mongodb": ">=1.0",
+    "async": "*"
   },
   "devDependencies": {
     "mocha": "*",
