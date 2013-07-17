@@ -21,6 +21,7 @@ Inside of your StatsD server config file, use the following parameters:
 	mongoMax: 2160, 
 	mongoPrefix: true, 
 	mongoName: 'databaseName',
+	mongoW: 0,
 	backends: ['/path/to/module/lib/index.js']
 }
 
@@ -29,6 +30,7 @@ Inside of your StatsD server config file, use the following parameters:
 * `mongoHost`: the ip address or hostname of the mongo server. Default is `localhost`.
 * `mongoMax`: the number of data points to cap the collection with. Default is `2160`. With Statsd's default of 10 seconds, this gives 6 hours of 'near real-time' data.
 * `mongoPrefix`: Boolean. If true, then the statsd "bucket" names contain a prefix which deterine the database name. For example, if a counter is called 'web-server.page_hits' then the database name will be 'web-server' and the collection name will be 'page_hits'. Otherwise, the database name will be 'statsd' and the collection name will be 'web-server.page_hits'.
+* `mongoW`: integer. The MongoDB `w` write concern parameter. Values below 1 mean unconfirmed writes.
 
 ## Schema
 
