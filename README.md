@@ -9,7 +9,7 @@ This backend uses Mongo's capped collections to have near file system performanc
 
 ## Installation
 
-As there are some minor changes from NPM, you will need to [Install Manually](http://stackoverflow.com/questions/5786433/how-to-install-a-node-js-module-without-using-npm)
+As there are some minor changes from NPN, you will need to [Install Manually](http://stackoverflow.com/questions/5786433/how-to-install-a-node-js-module-without-using-npm)
 
 ## Configuration
 
