@@ -2,14 +2,13 @@
 
 ## Overview
 This is a pluggable backend for [StatsD](https://github.com/etsy/statsd), which publishes stats to mongodb.
-Forked from [dynmeth/mongo-statsd-backend](https://github.com/dynmeth/mongo-statsd-backend) in order to fix some issues we were having in our environment
 
 ## How it works
 This backend uses Mongo's capped collections to have near file system performance for logging data points from StatsD.
 
 ## Installation
 
-As there are some minor changes from NPN, you will need to [Install Manually](http://stackoverflow.com/questions/5786433/how-to-install-a-node-js-module-without-using-npm)
+`$ npm install mongo-statsd-backend`
 
 ## Configuration
 
