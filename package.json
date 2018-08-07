@@ -5,7 +5,7 @@
   "version": "0.0.6",
   "main": "lib/index.js",
   "dependencies": {
-    "mongodb": ">=1.0",
+    "mongodb": "^2.2.36",
     "async": "*"
   },
   "devDependencies": {
@@ -16,8 +16,8 @@
   "engines": {
     "node": "*"
   },
-  "scripts":{
-  	"test":"mocha tests"
+  "scripts": {
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
