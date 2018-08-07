@@ -25,6 +25,9 @@ Inside of your StatsD server config file, use the following parameters:
 	mongoName: 'databaseName',
 	mongoAuthMechanism: 'SCRAM-SHA-1',
 	mongoAuthSource: 'databaseName',
+	mongoCollectionInfo: {
+		capped: true
+	},
 	backends: ['/path/to/module/lib/index.js']
 }
 ```
